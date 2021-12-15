@@ -1,0 +1,88 @@
+.App {
+  color: #282c34;
+  width: 60%;
+  margin: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Toggle-game-state {
+  text-align: center;
+  margin-top: -50pt;
+  margin-bottom: 25pt;
+}
+
+.Input-select-size {
+  margin-top: -28.4pt;
+  margin-left: 200pt;
+  margin-bottom: 25pt;
+}
+
+.Board-div {
+  width: 700px;
+  margin: auto;
+  font-size: 40pt;
+}
+
+.Tile {
+  text-align: center;
+  line-height: 50pt;
+  vertical-align: middle;
+}
+
+.Guess-input {
+  border: 15px solid grey;
+  margin: 30px;
+  text-align: center;
+  padding: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 10;
+}
+
+.Found-solutions-list {
+  text-align: center;
+  margin: 25pt;
+}
+
+.Found-solutions-list ul {
+  list-style-type: none;
+}
+
+.Found-solutions-list li {
+  font-size: 14pt;
+  line-height: 20pt;
+}
